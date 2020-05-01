@@ -1,0 +1,158 @@
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: #fff5ee;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* header */
+header {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  overflow: none;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    z-index: 10;
+    background-color: black;
+}
+
+#navi {
+  display: flex;
+  align-items: center;
+
+margin-left: auto;
+}
+
+#logo {
+  float: left;
+  padding-left: 5px;
+
+}
+
+#logo img {
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+header li {
+    padding-right: 25px;
+}
+
+/* main */
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2, h4 {
+  text-align: center;
+  background-color: black;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+h3 {
+  text-align: center;
+}
+
+h5 {
+  line-height: 3;
+  text-align: center;
+}
+.box h4 {
+  line-height: 2.5;
+}
+
+main div {
+  margin-bottom: 10px;
+  display: block;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-size: 100%;
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#month {
+  width: 1000px;
+}
+
+#pictures {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#pictures div img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  background-size: 100%;
+  background-position: 50% 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#locations p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+  padding-top: auto;
+}
+
+#heading {
+  margin-bottom: 0;
+}
+#boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 300px;
+  background-color: black;
+  margin: 15 20 0 20;
+  padding-top: 15px;
+}
+
+footer {
+  height: 50px;
+  padding-left: 20px;
+}
+
+footer p {
+ font-weight: bolder;
+ font-size: 0.75em;
+}
